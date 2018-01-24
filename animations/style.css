@@ -1,0 +1,33 @@
+body{
+    background-color:#333;
+    color:#fff;
+    font-size:18px;
+    line-height: 1.6em;
+    
+}
+.container{
+    max-width: 75%;
+    margin:auto;
+
+}
+.box{
+    background-color:#fff;
+    width:200px;
+    height:200px;
+    position:relative;
+    animation-name:myAnimation;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    /*animation-direction: reverse;*/
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes myAnimation{
+    0% {background:#fff; left:0; top:0;border-radius: 100px;border:solid rgb(191, 233, 5);}
+    25% {background:red;left:20px; top:20px;border-radius: 100px;}
+    50%{background:blue;left:50px; top:50px;border-radius: 100px ;}
+    75%{background:green; left:100px; top:100px;border-radius:100px;}
+    100%{background:white;border-radius: 100px;}
+}

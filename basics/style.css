@@ -1,0 +1,132 @@
+body{
+    background: #f4f4f4;
+    font-size: 16px;
+    color:#555;
+    line-height: 1.4em;
+    /**
+    ----- Short way to do it--------------------
+    **/
+    font: 18px verdana,arial,
+    
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+
+.frame {
+    background-color: #585353;
+    color:#fff;
+    padding:2px 2px 3px 17px;
+    border-top: 5px solid #e49c02;
+    border-radius: 0.3rem;
+}
+ h1{
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 1.2em;
+    /*text-decoration: underline;*/
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    word-spacing: 0,4em;
+}
+span{
+    font-size:18px;  
+}
+.boxes {
+    
+    background-color:rgb(34, 58, 58);
+    
+    
+}
+.box1{
+    width:49%;
+    float:left;
+    background-color:#eee3ce;
+    padding:5px;
+    margin:5px 0;
+    border:rgba(32, 18, 1, 0.2) solid;
+    box-sizing: border-box;
+  
+}
+.box2{
+    width:49%;
+    float: right;;
+    background-color:#eee3ce;
+    padding:5px;
+    margin:5px 0;
+    border:rgba(32, 18, 1, 0.2) solid;
+    box-sizing: border-box;
+    
+}
+.clr{
+    clear:both;
+}
+.categories h1{
+    padding:5px;
+}
+.categories{
+    border:2px solid #e49c02;
+    border-radius: 1.2rem;
+    padding:10px;
+}
+#faculty ul{
+    line-height: 1.7em;
+    
+    
+}
+#faculty  li{
+    list-style: none;
+    padding-bottom: 5px;
+    font-size:18px;
+    color:#a56d04;
+    border-bottom: solid #a56d04;
+    
+    
+}
+
+/** ---------------------
+****** Styling the form ****** 
+-------------------------- */
+.container-form{
+    background-image: url(img/6.jpeg); 
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.myFrom {
+   width:50%;
+   margin:auto;
+   margin-top:50px;
+   padding-top:20px;
+   position: relative;
+   
+}
+.myFrom .form-group {
+    padding-bottom: 15px;
+}
+.myFrom label{
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.myFrom input[type="text"],.myFrom input[type="email"],.myFrom textarea{
+    padding:8px;
+    width:100%;
+    border:0;
+    border: 1px solid rgba(94, 207, 2, 0.8);
+}
+.myFrom input[type="submit"]{
+    background-color: rgba(94, 207, 2, 0.8);
+    border:none;
+    padding:10px 15px;
+    color:#fff;
+    width:70%;
+    position:absolute;
+    left:15%;
+    bottom:-10%;
+
+    
+}
